@@ -1,10 +1,7 @@
 <?php
 
 if (!defined('WP_UNINSTALL_PLUGIN')) exit();
-delete_option('wp_browserupdate_browsers');
-delete_option('wp_browserupdate_css_buorg');
-delete_option('wp_browserupdate_css_buorgdiv');
-delete_option('wp_browserupdate_css_buorga');
-delete_option('wp_browserupdate_css_buorgclose');
+
+foreach(array('wp_browserupdate_browsers', 'wp_browserupdate_css_buorg', 'wp_browserupdate_css_buorgdiv', 'wp_browserupdate_css_buorga', 'wp_browserupdate_css_buorgclose') as $option) delete_option($option);
 
 ?>
