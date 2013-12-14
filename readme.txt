@@ -3,7 +3,7 @@ Contributors: MacSteini
 Donate link: https://flattr.com/thing/1174660/MacSteini
 Tags: Browser, Update, Installation, Notice, Warning, Out-dated
 Requires at least: 1.5.1
-Tested up to: 3.6
+Tested up to: 3.8
 Stable tag: 2.0.2
 License: GPLv2 or later
 License URI: http://gnu.org/licenses/gpl-2.0.html
