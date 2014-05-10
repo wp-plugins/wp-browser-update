@@ -25,30 +25,17 @@ load_plugin_textdomain('WPBU_by_Steini', false, basename(dirname(__FILE__)).'/la
 }
 
 function wpbu() {
+$wpbu_vars = explode(' ', get_option('wp_browserupdate_browsers'));
+$wpbu_js = explode(' ', get_option('wp_browserupdate_js'));
 $browser = '';
 
-$wpbu_vars = explode(' ', get_option('wp_browserupdate_browsers'));
-$msie = $wpbu_vars[0];
-$firefox = $wpbu_vars[1];
-$opera = $wpbu_vars[2];
-$safari = $wpbu_vars[3];
-
-$wpbu_js = explode(' ', get_option('wp_browserupdate_js'));
-$reminder = !empty($wpbu_js[0]) ? (int)$wpbu_js[0] : '';
-$testing = !empty($wpbu_js[1]) ? $wpbu_js[1] : '';
-$newwindow = !empty($wpbu_js[2]) ? $wpbu_js[2] : '';
-
-if (!empty($reminder)) $reminder = 'reminder:'.$reminder.',';
-if (!empty($testing)) $testing = 'test:'.$testing.',';
-if (!empty($newwindow)) $newwindow = 'newwindow:'.$newwindow.',';
-
-if (!empty($msie)) $browser .= 'i:'.$msie.',';
-if (!empty($firefox)) $browser .= 'f:'.$firefox.',';
-if (!empty($opera)) $browser .= 'o:'.$opera.',';
-if (!empty($safari)) $browser .= 's:'.$safari;
+if (!empty($wpbu_vars[0])) $browser .= 'i:'.$wpbu_vars[0].',';
+if (!empty($wpbu_vars[1])) $browser .= 'f:'.$wpbu_vars[1].',';
+if (!empty($wpbu_vars[2])) $browser .= 'o:'.$wpbu_vars[2].',';
+if (!empty($wpbu_vars[3])) $browser .= 's:'.$wpbu_vars[3];
 
 echo '<script type="text/javascript">
-var $buoop = {'.str_replace(',,', ',', 'vs:{'.$browser.'},'.$reminder.','.$testing.','.$newwindow).'};
+var $buoop = {'.str_replace(',,', ',', 'vs:{'.$browser.'}').',reminder:'.(isset($wpbu_js[0]) ? (int)$wpbu_js[0] : '').',test:'.(isset($wpbu_js[1]) ? $wpbu_js[1] : '').',newwindow:'.(isset($wpbu_js[2]) ? $wpbu_js[2] : '').'};
 $buoop.ol = window.onload;
 window.onload=function(){
 try {if ($buoop.ol) $buoop.ol();}catch (e) {}
