@@ -5,7 +5,7 @@ Tags: Browser, Update, Installation, Notice, Warning, Out-dated
 Requires at least: 1.5.1
 Tested up to: 3.9
 Compatible up to: 3.9
-Stable tag: 2.1.1
+Stable tag: 2.1.2
 License: GPLv2 or later
 License URI: http://gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,9 @@ If you wish to contribute your own language, please have a look into the plugin'
 3. Activate the plugin through the plugins menu in WordPress backend
 
 == Changelog ==
+= 2.1.2 =
+* Minor fix of initial notification message (thanks to Matthias Van Dooren)
+
 = 2.1.1 =
 * Updated and corrected French translation (thanks to Thierry Fosse)
 
