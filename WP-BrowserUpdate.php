@@ -7,7 +7,7 @@ Version: 2.1.3
 Author: Marco Steinbrecher
 Author URI: http://profiles.wordpress.org/macsteini
 Min WP Version: 1.5.1
-Max WP Version: 4.0
+Max WP Version: 4.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
