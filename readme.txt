@@ -5,7 +5,7 @@ Tags: Browser, Update, Installation, Notice, Warning, Out-dated
 Requires at least: 1.5.1
 Tested up to: 4.2
 Compatible up to: 4.2
-Stable tag: 2.1.3
+Stable tag: 2.1.4
 License: GPLv2 or later
 License URI: http://gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,9 @@ If you wish to contribute your own language, please have a look into the plugin'
 3. Activate the plugin through the plugins menu in WordPress backend
 
 == Changelog ==
+= 2.1.4 =
+* Added Brazilian Portuguese translation (thanks to Elvis Henrique Pereira)
+
 = 2.1.3 =
 * Added Traditional Chinese translation (thanks to Sheldon Ng)
 
