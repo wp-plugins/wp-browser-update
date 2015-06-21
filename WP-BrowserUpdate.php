@@ -3,11 +3,11 @@
 Plugin Name: WP BrowserUpdate
 Plugin URI: http://blog.steini.me/wp-browserupdate
 Description: This plugin informs website visitors to update their out-dated browser in an unobtrusive way. Go to <a href="http://browser-update.org/" title="browser-update.org" target="_blank">browser-update.org</a> for more information...
-Version: 2.1.4
+Version: 2.1.5
 Author: Marco Steinbrecher
 Author URI: http://profiles.wordpress.org/macsteini
 Min WP Version: 1.5.1
-Max WP Version: 4.2
+Max WP Version: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -76,9 +76,9 @@ $wpbu_css_buorga = get_option('wp_browserupdate_css_buorga');
 $wpbu_css_buorgclose = get_option('wp_browserupdate_css_buorgclose');
 
 $msie_vers = array(10, 9, 8, 7, 6);
-$firefox_vers = array(25, 20, 15, 10);
-$opera_vers = array(19, 18, 17, 16, 15);
-$safari_vers = array(6, 5, 4, 3);
+$firefox_vers = array(35, 30, 25, 20, 15);
+$opera_vers = array(28, 25, 22, 19, 16);
+$safari_vers = array(7, 6, 5, 4, 3);
 
 echo '<div class="wrap"><form action="'.$_SERVER['REQUEST_URI'].'" method="post"><h2>WP BrowserUpdate</h2><h3>'.__('Out-dated Browser Versions', 'WPBU_by_Steini').'</h3><p>'.__('Please choose which browser version you consider to be out-dated (of course, this will include all versions below)... If you leave as is, WP BrowserUpdate uses the default values.', 'WPBU_by_Steini').'</p><p>Microsoft Internet Explorer: <select name="wpbu_msie">';
 

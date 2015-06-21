@@ -3,9 +3,9 @@ Contributors: MacSteini
 Donate link: https://flattr.com/thing/1174660/MacSteini
 Tags: Browser, Update, Installation, Notice, Warning, Out-dated
 Requires at least: 1.5.1
-Tested up to: 4.2
-Compatible up to: 4.2
-Stable tag: 2.1.4
+Tested up to: 4.3
+Compatible up to: 4.3
+Stable tag: 2.1.5
 License: GPLv2 or later
 License URI: http://gnu.org/licenses/gpl-2.0.html
 
@@ -20,10 +20,14 @@ If you wish to contribute your own language, please have a look into the plugin'
 
 == Installation ==
 1. Unzip file.
-2. Upload unzipped folder to "/wp-content/plugins/" directory.
-3. Activate the plugin through the plugins menu in WordPress backend
+2. Upload unzipped folder to /wp-content/plugins/ directory of your WordPress installation.
+3. Activate the plugin via /wp-admin/plugins.php in your WordPress backend.
 
 == Changelog ==
+= 2.1.5 =
+* Added Norwegian translation (thanks to Alexander Prestmo)
+* Updated (out-dated) browser versions
+
 = 2.1.4 =
 * Added Brazilian Portuguese translation (thanks to Elvis Henrique Pereira)
 
@@ -40,7 +44,7 @@ If you wish to contribute your own language, please have a look into the plugin'
 * Added options to customize the JavaScript (thanks to Tomas Risberg)
 
 = 2.0.4 =
-* Updated (out-dated) Browser Versions
+* Updated (out-dated) browser versions
 * Updated JavaScript
 
 = 2.0.3 =
@@ -54,8 +58,8 @@ If you wish to contribute your own language, please have a look into the plugin'
 
 = 2.0 =
 * Added English and German translations
-* Added Administration panel for individual modifications
+* Added administration panel for individual modifications
 * Added uninstall function
 
 = 1.0 =
-* Stable Version
+* Stable version
