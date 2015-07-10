@@ -5,7 +5,7 @@ Tags: Browser, Update, Installation, Notice, Warning, Out-dated
 Requires at least: 1.5.1
 Tested up to: 4.3
 Compatible up to: 4.3
-Stable tag: 2.1.5
+Stable tag: 2.1.6
 License: GPLv2 or later
 License URI: http://gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,9 @@ If you wish to contribute your own language, please have a look into the plugin'
 3. Activate the plugin via /wp-admin/plugins.php in your WordPress backend.
 
 == Changelog ==
+= 2.1.6 =
+* Included minified JavaScript (forgot to switch back after some testing)
+
 = 2.1.5 =
 * Added Norwegian translation (thanks to Alexander Prestmo)
 * Updated (out-dated) browser versions
