@@ -16,7 +16,7 @@ Many internet users are surfing with out-dated browsers for several reasons (mai
 
 Go to <a href="http://browser-update.org/" title="browser-update.org" target="_blank">browser-update.org</a> for more information.
 
-If you wish to contribute your own language, please have a look into the plugin’s language folder. There you’ll find WPBU_by_Steini.pot which can be edited with <a href="http://poedit.net/" title="Poedit" target="_blank">Poedit</a>. Alternatively, feel free to drop me a plain-text e-mail with the translated texts and I’ll compile afterwards. Send your translation <a href="mailto:wp-browserupdate@REMOVE-THISsteini.me">to me</a> afterwards. I really appreciate your support!
+If you wish to contribute your own language, please have a look into the plugin’s language folder. There you’ll find WPBU.pot which can be edited with <a href="http://poedit.net/" title="Poedit" target="_blank">Poedit</a>. Alternatively, feel free to drop me a plain-text e-mail with the translated texts and I’ll compile afterwards. Send your translation <a href="mailto:wp-browserupdate@REMOVE-THISsteini.me">to me</a> afterwards. I really appreciate your support!
 
 == Installation ==
 1. Unzip file.
