@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP BrowserUpdate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-20 21:06+0200\n"
+"PO-Revision-Date: 2015-07-20 21:34+0200\n"
+"Last-Translator: Marco Steinbrecher <wp-browserupdate@steini.me>\n"
+"Language-Team: Thierry Fosse <thiery.fosse@gmail.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../WP-BrowserUpdate.php:54
+msgid "Settings saved."
+msgstr "Paramètres sauvegardés."
+
+#: ../WP-BrowserUpdate.php:79
+msgid "Out-dated Browser Versions"
+msgstr "Versions de navigateur périmées"
+
+#: ../WP-BrowserUpdate.php:79
+msgid ""
+"Please choose which browser version you consider to be out-dated (of course, "
+"this will include all versions below)… If you leave as is, WP BrowserUpdate "
+"uses the default values."
+msgstr ""
+"Veuillez choisir la version du navigateur que vous considérez être périmés "
+"(bien sûr, cela va inclure toutes les versions ci-dessous)… Si vous laissez "
+"tel quel, WP BrowserUpdate utilise les valeurs par défaut."
+
+#: ../WP-BrowserUpdate.php:83 ../WP-BrowserUpdate.php:87
+#: ../WP-BrowserUpdate.php:91 ../WP-BrowserUpdate.php:95
+msgid "Download"
+msgstr "Télécharger"
+
+#: ../WP-BrowserUpdate.php:95
+msgid "Script Customizations"
+msgstr ""
+
+#: ../WP-BrowserUpdate.php:95
+msgid ""
+"After how many hours the message should re-appear (0 = Show all the time)"
+msgstr ""
+
+#: ../WP-BrowserUpdate.php:95
+msgid "Open link on notification bar in a new browser window/tab"
+msgstr ""
+
+#: ../WP-BrowserUpdate.php:95
+msgid "Yes"
+msgstr "Oui"
+
+#: ../WP-BrowserUpdate.php:95
+msgid "No"
+msgstr "Non"
+
+#: ../WP-BrowserUpdate.php:95
+msgid "Always show notification bar (for testing purposes)"
+msgstr ""
+
+#: ../WP-BrowserUpdate.php:95
+msgid "CSS Styles"
+msgstr "Styles CSS"
+
+#: ../WP-BrowserUpdate.php:95
+#, php-format
+msgid ""
+"If you do not know about CSS and how to use, leave the following forms "
+"empty. For further details, visit the %show-to page%s."
+msgstr ""
+"Si vous ne savez pas comment utiliser le CSS, laissez les formes suivantes "
+"vide. Pour plus de détails, visitez la page %show-to page%s."
+
+#: ../WP-BrowserUpdate.php:95
+msgid "Style"
+msgstr "Style"
+
+#: ../WP-BrowserUpdate.php:95
+msgid "Update Settings"
+msgstr "Mettre à jour les paramètres"
+
+#: ../WP-BrowserUpdate.php:119
+msgid "Settings"
+msgstr "Paramètres"
+
+#~ msgid ""
+#~ "Please choose which browser version you consider to be out-dated (of "
+#~ "course, this will include all versions below)... If you leave as is, WP "
+#~ "BrowserUpdate uses the default values."
+#~ msgstr ""
+#~ "Veuillez choisir la version du navigateur que vous considérez être "
+#~ "périmés (bien sûr, cela va inclure toutes les versions ci-dessous) ... Si "
+#~ "vous laissez tel quel, WP BrowserUpdate utilise les valeurs par défaut."
+
+#~ msgid ""
+#~ "If you do not know about CSS and how to use, leave the following forms "
+#~ "empty. For further details, visit the <a href=\"http://browser-update.org/"
+#~ "customize.html\" target=\"_blank\">how-to page</a>."
+#~ msgstr ""
+#~ "Si vous ne savez pas comment utiliser le CSS, laissez les formes "
+#~ "suivantes vide. Pour plus de détails, visitez la page <a href=\"http://"
+#~ "browser-update.org/customize.html\" target=\"_blank\">comment faire</ a>."
