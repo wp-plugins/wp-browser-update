@@ -10,7 +10,7 @@ Min WP Version: 1.5.1
 Max WP Version: 4.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl
-Text Domain: WPBU_by_Steini
+Text Domain: WPBU
 */
 
 if (!get_option('wp_browserupdate_browsers')) update_option('wp_browserupdate_browsers', '    ');
