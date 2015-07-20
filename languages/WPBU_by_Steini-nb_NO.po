@@ -1,0 +1,103 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP BrowserUpdate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-20 21:11+0200\n"
+"PO-Revision-Date: 2015-07-20 21:13+0200\n"
+"Last-Translator: Marco Steinbrecher <wp-browserupdate@steini.me>\n"
+"Language-Team: Alexander Prestmo <aprestmo@gmail.com>\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../WP-BrowserUpdate.php:54
+msgid "Settings saved."
+msgstr "Innstillingene er lagret"
+
+#: ../WP-BrowserUpdate.php:79
+msgid "Out-dated Browser Versions"
+msgstr "Utdaterte nettleserversjoner"
+
+#: ../WP-BrowserUpdate.php:79
+msgid ""
+"Please choose which browser version you consider to be out-dated (of course, "
+"this will include all versions below)… If you leave as is, WP BrowserUpdate "
+"uses the default values."
+msgstr ""
+"Velg hvilke nettlesere du anser som utdaterte (dette vil også inkludere alle "
+"lavere versjoner av denne nettleseren)… Hvis du ikke fyller ut noe vil den "
+"bruke WP BrowserUpdate sine standarddefinisjoner av hva som er utdaterte "
+"nettlesere."
+
+#: ../WP-BrowserUpdate.php:83 ../WP-BrowserUpdate.php:87
+#: ../WP-BrowserUpdate.php:91 ../WP-BrowserUpdate.php:95
+msgid "Download"
+msgstr "Last ned"
+
+#: ../WP-BrowserUpdate.php:95
+msgid "Script Customizations"
+msgstr "Script-tilpasninger"
+
+#: ../WP-BrowserUpdate.php:95
+msgid ""
+"After how many hours the message should re-appear (0 = Show all the time)"
+msgstr ""
+"Etter hvor mange timer meldingen skal dukke opp igjen (0 = Vis hele tiden)"
+
+#: ../WP-BrowserUpdate.php:95
+msgid "Open link on notification bar in a new browser window/tab"
+msgstr "Åpne lenken i varslingslinjen i et nytt vindu/ny fane"
+
+#: ../WP-BrowserUpdate.php:95
+msgid "Yes"
+msgstr "Ja"
+
+#: ../WP-BrowserUpdate.php:95
+msgid "No"
+msgstr "Nei"
+
+#: ../WP-BrowserUpdate.php:95
+msgid "Always show notification bar (for testing purposes)"
+msgstr "Alltid vis varslinglinjen (utviklingsmodus)"
+
+#: ../WP-BrowserUpdate.php:95
+msgid "CSS Styles"
+msgstr "CSS-stiler"
+
+#: ../WP-BrowserUpdate.php:95
+#, php-format
+msgid ""
+"If you do not know about CSS and how to use, leave the following forms "
+"empty. For further details, visit the %show-to page%s."
+msgstr ""
+"Hvis du ikke kan noe om CSS og hvordan det brukes, la det følgende skjemaet "
+"være tomt. For flere detaljer besøk %show-to page%s."
+
+#: ../WP-BrowserUpdate.php:95
+msgid "Style"
+msgstr "Stil"
+
+#: ../WP-BrowserUpdate.php:95
+msgid "Update Settings"
+msgstr "Oppdater innstillinger"
+
+#: ../WP-BrowserUpdate.php:119
+msgid "Settings"
+msgstr "Innstillinger"
+
+#~ msgid ""
+#~ "Please choose which browser version you consider to be out-dated (of "
+#~ "course, this will include all versions below)... If you leave as is, WP "
+#~ "BrowserUpdate uses the default values."
+#~ msgstr ""
+#~ "Velg hvilke nettlesere du anser som utdaterte (dette vil også inkludere "
+#~ "alle lavere versjoner av denne nettleseren). Hvis du ikke fyller ut noe "
+#~ "vil den bruke WP BrowserUpdate sine standarddefinisjoner av hva som er "
+#~ "utdaterte nettlesere."
