@@ -2,14 +2,15 @@
 /*
 Plugin Name: WP BrowserUpdate
 Plugin URI: http://blog.steini.me/wp-browserupdate
-Description: This plugin informs website visitors to update their out-dated browser in an unobtrusive way. Go to <a href="http://browser-update.org/" title="browser-update.org" target="_blank">browser-update.org</a> for more information...
-Version: 2.1.6
+Description: This plugin informs website visitors to update their out-dated browser in an unobtrusive way. Go to <a href="http://browser-update.org/" title="browser-update.org" target="_blank">browser-update.org</a> for more information…
+Version: 2.2
 Author: Marco Steinbrecher
 Author URI: http://profiles.wordpress.org/macsteini
 Min WP Version: 1.5.1
 Max WP Version: 4.3
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GPLv3 or later
+License URI: http://www.gnu.org/licenses/gpl
+Text Domain: WPBU_by_Steini
 */
 
 if (!get_option('wp_browserupdate_browsers')) update_option('wp_browserupdate_browsers', '    ');
@@ -18,11 +19,6 @@ if (!get_option('wp_browserupdate_css_buorg')) update_option('wp_browserupdate_c
 if (!get_option('wp_browserupdate_css_buorgdiv')) update_option('wp_browserupdate_css_buorgdiv', '');
 if (!get_option('wp_browserupdate_css_buorga')) update_option('wp_browserupdate_css_buorga', '');
 if (!get_option('wp_browserupdate_css_buorgclose')) update_option('wp_browserupdate_css_buorgclose', '');
-
-
-function wpbu_language_init() {
-load_plugin_textdomain('WPBU_by_Steini', false, basename(dirname(__FILE__)).'/languages/');
-}
 
 function wpbu() {
 $wpbu_vars = explode(' ', get_option('wp_browserupdate_browsers'));
@@ -80,7 +76,7 @@ $firefox_vers = array(35, 30, 25, 20, 15);
 $opera_vers = array(28, 25, 22, 19, 16);
 $safari_vers = array(7, 6, 5, 4, 3);
 
-echo '<div class="wrap"><form action="'.$_SERVER['REQUEST_URI'].'" method="post"><h2>WP BrowserUpdate</h2><h3>'.__('Out-dated Browser Versions', 'WPBU_by_Steini').'</h3><p>'.__('Please choose which browser version you consider to be out-dated (of course, this will include all versions below)... If you leave as is, WP BrowserUpdate uses the default values.', 'WPBU_by_Steini').'</p><p>Microsoft Internet Explorer: <select name="wpbu_msie">';
+echo '<div class="wrap"><form action="'.$_SERVER['REQUEST_URI'].'" method="post"><h2>WP BrowserUpdate</h2><h3>'.__('Out-dated Browser Versions', 'WPBU_by_Steini').'</h3><p>'.__('Please choose which browser version you consider to be out-dated (of course, this will include all versions below)… If you leave as is, WP BrowserUpdate uses the default values.', 'WPBU_by_Steini').'</p><p>Microsoft Internet Explorer: <select name="wpbu_msie">';
 
 for ($x=0; $x<count($msie_vers); $x++) echo '<option value="'.$msie_vers[$x].'"'.($msie==$msie_vers[$x] ? ' selected="selected"' : '').'>'.$msie_vers[$x].'</option>';
 
@@ -124,7 +120,6 @@ return array_merge(array('settings' => '<a href="'.admin_url('options-general.ph
 }
 
 add_filter('plugin_action_links_'.basename(dirname(__FILE__)).'/'.basename(__FILE__), 'wpbu_settings_link');
-add_action('plugins_loaded', 'wpbu_language_init');
 add_action('wp_footer', 'wpbu');
 add_action('wp_head', 'wpbu_css');
 add_action('admin_menu', 'wp_browserupdate_admin');

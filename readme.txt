@@ -5,18 +5,18 @@ Tags: Browser, Update, Installation, Notice, Warning, Out-dated
 Requires at least: 1.5.1
 Tested up to: 4.3
 Compatible up to: 4.3
-Stable tag: 2.1.6
-License: GPLv2 or later
-License URI: http://gnu.org/licenses/gpl-2.0.html
+Stable tag: 2.2
+License: GPLv3 or later
+License URI: http://gnu.org/licenses/gpl
 
 This plugin informs website visitors to update their out-dated browser in an unobtrusive way.
 
 == Description ==
-Many internet users are surfing with out-dated browsers for several reasons (mainly because they do not know how to update). Switching to a newer browser is better in terms of security and reliability. This plugin informs your visitors to switch to a newer browser in an unobtrusive way. Just activate this plugin and you and your visitors are good to go...
+Many internet users are surfing with out-dated browsers for several reasons (mainly because they do not know how to update). Switching to a newer browser is better in terms of security and reliability. This plugin informs your visitors to switch to a newer browser in an unobtrusive way. Just activate this plugin and you and your visitors are good to go…
 
 Go to <a href="http://browser-update.org/" title="browser-update.org" target="_blank">browser-update.org</a> for more information.
 
-If you wish to contribute your own language, please have a look into the plugin's language folder. There you'll find WPBU_by_Steini.po which can be edited with <a href="http://poedit.net/" title="Poedit" target="_blank">Poedit</a>. Alternatively, feel free to drop me a plain-text e-mail with the translated texts and I'll compile afterwards. Send your translation <a href="mailto:wp-browserupdate@REMOVE-THISsteini.me">to me</a> afterwards. I really appreciate your support!
+If you wish to contribute your own language, please have a look into the plugin’s language folder. There you’ll find WPBU_by_Steini.pot which can be edited with <a href="http://poedit.net/" title="Poedit" target="_blank">Poedit</a>. Alternatively, feel free to drop me a plain-text e-mail with the translated texts and I’ll compile afterwards. Send your translation <a href="mailto:wp-browserupdate@REMOVE-THISsteini.me">to me</a> afterwards. I really appreciate your support!
 
 == Installation ==
 1. Unzip file.
@@ -24,6 +24,11 @@ If you wish to contribute your own language, please have a look into the plugin'
 3. Activate the plugin via /wp-admin/plugins.php in your WordPress backend.
 
 == Changelog ==
+= 2.2 =
+* Changed license from GPLv2 to GPLv3
+* Replaced wpbu_language_init() function with text domain in Plugin header
+* Added POT file in ./languages folder for easier i18n ;-)
+
 = 2.1.6 =
 * Included minified JavaScript (forgot to switch back after some testing)
 
@@ -43,7 +48,7 @@ If you wish to contribute your own language, please have a look into the plugin'
 = 2.1.1 =
 * Updated and corrected French translation (thanks to Thierry Fosse)
 
-= 2.1.0 =
+= 2.1 =
 * Added options to customize the JavaScript (thanks to Tomas Risberg)
 
 = 2.0.4 =
