@@ -5,7 +5,7 @@ Tags: Browser, Update, Installation, Notice, Warning, Out-dated
 Requires at least: 1.5.1
 Tested up to: 4.3
 Compatible up to: 4.3
-Stable tag: 2.2
+Stable tag: 2.2.1
 License: GPLv3 or later
 License URI: http://gnu.org/licenses/gpl
 
@@ -24,9 +24,12 @@ If you wish to contribute your own language, please have a look into the pluginâ
 3. Activate the plugin via /wp-admin/plugins.php in your WordPress backend.
 
 == Changelog ==
+= 2.2.1 =
+* Minor bug fix
+
 = 2.2 =
 * Changed license from GPLv2 to GPLv3
-* Replaced wpbu_language_init() function with text domain in Plugin header
+* Added text domain in plugin header
 * Added POT file in ./languages folder for easier i18n ;-)
 
 = 2.1.6 =
