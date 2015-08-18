@@ -2,10 +2,10 @@
 Contributors: MacSteini
 Donate link: https://flattr.com/thing/1174660/MacSteini
 Tags: Browser, Update, Installation, Notice, Warning, Out-dated
-Requires at least: 1.5.1
+Requires at least: 2.0
 Tested up to: 4.3
 Compatible up to: 4.3
-Stable tag: 2.2.1
+Stable tag: 2.2.2
 License: GPLv3 or later
 License URI: http://gnu.org/licenses/gpl
 
@@ -19,11 +19,24 @@ Go to <a href="http://browser-update.org/" title="browser-update.org" target="_b
 If you wish to contribute your own language, please have a look into the plugin’s language folder. There you’ll find WPBU.pot which can be edited with <a href="http://poedit.net/" title="Poedit" target="_blank">Poedit</a>. Alternatively, feel free to drop me a plain-text e-mail with the translated texts and I’ll compile afterwards. Send your translation <a href="mailto:wp-browserupdate@REMOVE-THISsteini.me">to me</a> afterwards. I really appreciate your support!
 
 == Installation ==
-1. Unzip file.
-2. Upload unzipped folder to /wp-content/plugins/ directory of your WordPress installation.
-3. Activate the plugin via /wp-admin/plugins.php in your WordPress backend.
+= Manually =
+Unzip wp-browser-update.zip and upload the unzipped folder to /wp-content/plugins/ directory of your WordPress installation.
+
+= Via Plugin Backend =
+Upload wp-browser-update.zip from your plugin panel (/wp-admin/plugin-install.php?tab=upload).
+
+= Via Plugin Search =
+Search for “wp browserupdate” and install the displayed result from your plugin panel (/wp-admin/plugin-install.php).
+
+= Activation =
+Don’t forget to activate WP BrowserUpdate afterwards. ;-)
 
 == Changelog ==
+= 2.2.2 =
+* Overhauled functions
+* Updated translation files
+* Removed out-dated Traditional Chinese translation
+
 = 2.2.1 =
 * Minor bug fix
 

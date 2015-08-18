@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP BrowserUpdate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-20 20:55+0200\n"
+"POT-Creation-Date: 2015-07-24 17:04+0200\n"
 "POT-Revision-Date: Mon Jul 20 2015 14:02:11 GMT+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: \n"
@@ -16,72 +16,76 @@ msgstr ""
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-KeywordsList: __\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Generator: Poedit 1.8.3\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../WP-BrowserUpdate.php:54
+#: ../WP-BrowserUpdate.php:51
 msgid "Settings saved."
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:79
+#: ../WP-BrowserUpdate.php:76
 msgid "Out-dated Browser Versions"
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:79
+#: ../WP-BrowserUpdate.php:76
 msgid ""
 "Please choose which browser version you consider to be out-dated (of course, "
 "this will include all versions below)… If you leave as is, WP BrowserUpdate "
 "uses the default values."
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:83 ../WP-BrowserUpdate.php:87
-#: ../WP-BrowserUpdate.php:91 ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:80 ../WP-BrowserUpdate.php:84
+#: ../WP-BrowserUpdate.php:88 ../WP-BrowserUpdate.php:92
 msgid "Download"
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
+msgid "No need to define – handled automatically"
+msgstr ""
+
+#: ../WP-BrowserUpdate.php:92
 msgid "Script Customizations"
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "After how many hours the message should re-appear (0 = Show all the time)"
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "Open link on notification bar in a new browser window/tab"
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "Yes"
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "No"
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "Always show notification bar (for testing purposes)"
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "CSS Styles"
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 #, php-format
 msgid ""
 "If you do not know about CSS and how to use, leave the following forms empty. "
 "For further details, visit the %show-to page%s."
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "Style"
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "Update Settings"
 msgstr ""
 
-#: ../WP-BrowserUpdate.php:119
+#: ../WP-BrowserUpdate.php:116
 msgid "Settings"
 msgstr ""

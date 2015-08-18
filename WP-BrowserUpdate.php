@@ -3,26 +3,19 @@
 Plugin Name: WP BrowserUpdate
 Plugin URI: http://blog.steini.me/wp-browserupdate
 Description: This plugin informs website visitors to update their out-dated browser in an unobtrusive way. Go to <a href="http://browser-update.org/" title="browser-update.org" target="_blank">browser-update.org</a> for more information…
-Version: 2.2.1
+Version: 2.2.2
 Author: Marco Steinbrecher
 Author URI: http://profiles.wordpress.org/macsteini
-Min WP Version: 1.5.1
+Min WP Version: 2.0
 Max WP Version: 4.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl
 Text Domain: WPBU
 */
 
-function wpbu_language_init() {
+function wpbu_lang_init() {
 load_plugin_textdomain('WPBU', false, basename(dirname(__FILE__)).'/languages/');
 }
-
-if (!get_option('wp_browserupdate_browsers')) update_option('wp_browserupdate_browsers', '    ');
-if (!get_option('wp_browserupdate_js')) update_option('wp_browserupdate_js', '0 false true');
-if (!get_option('wp_browserupdate_css_buorg')) update_option('wp_browserupdate_css_buorg', '');
-if (!get_option('wp_browserupdate_css_buorgdiv')) update_option('wp_browserupdate_css_buorgdiv', '');
-if (!get_option('wp_browserupdate_css_buorga')) update_option('wp_browserupdate_css_buorga', '');
-if (!get_option('wp_browserupdate_css_buorgclose')) update_option('wp_browserupdate_css_buorgclose', '');
 
 function wpbu() {
 $wpbu_vars = explode(' ', get_option('wp_browserupdate_browsers'));
@@ -96,7 +89,7 @@ echo '</select> <a href="http://opera.com/" title="'.__('Download', 'WPBU').'" t
 
 for ($x=0; $x<count($safari_vers); $x++) echo '<option value="'.$safari_vers[$x].'"'.($safari==$safari_vers[$x] ? ' selected="selected"' : '').'>'.$safari_vers[$x].'</option>';
 
-echo '</select> <a href="http://apple.com/safari" title="'.__('Download', 'WPBU').'" target="_blank">'.__('Download', 'WPBU').'</a></p><h3>'.__('Script Customizations', 'WPBU').'</h3><p>'.__('After how many hours the message should re-appear (0 = Show all the time)', 'WPBU').':<br /><input type="number" value="'.$wpbu_reminder.'" name="wpbu_reminder" min="0" max="99" step="1" required placeholder="(min: 0, max: 99)" /></p><p>'.__('Open link on notification bar in a new browser window/tab', 'WPBU').':<br /><select name="wpbu_newwindow"><option value="true"'.($wpbu_newwindow=='true' ? ' selected' : '').'>'.__('Yes', 'WPBU').'</option><option value="false"'.($wpbu_newwindow=='false' ? ' selected' : '').'>'.__('No', 'WPBU').'</option></select></p><p>'.__('Always show notification bar (for testing purposes)', 'WPBU').':<br /><select name="wpbu_testing"><option value="true"'.($wpbu_testing=='true' ? ' selected' : '').'>'.__('Yes', 'WPBU').'</option><option value="false"'.($wpbu_testing=='false' ? ' selected' : '').'>'.__('No', 'WPBU').'</option></select></p><h3>'.__('CSS Styles', 'WPBU').'</h3><p>'.sprintf(__('If you do not know about CSS and how to use, leave the following forms empty. For further details, visit the %show-to page%s.', 'WPBU'), '<a href="http://browser-update.org/customize.html" target="_blank">', '</a>').'</p><p>.buorg '.__('Style', 'WPBU').':<br /><textarea name="wpbu_css_buorg" cols="40" rows="10">'.$wpbu_css_buorg.'</textarea></p><p>.buorg div '.__('Style', 'WPBU').':<br /><textarea name="wpbu_css_buorgdiv" cols="40" rows="2">'.$wpbu_css_buorgdiv.'</textarea></p><p>.buorg a '.__('Style', 'WPBU').':<br /><textarea name="wpbu_css_buorga" cols="40" rows="2">'.$wpbu_css_buorga.'</textarea></p><p>#buorgclose '.__('Style', 'WPBU').':<br /><textarea name="wpbu_css_buorgclose" cols="40" rows="10">'.$wpbu_css_buorgclose.'</textarea></p><p class="submit"><input type="submit" name="wpbu_submit" value="'.__('Update Settings', 'WPBU').'" /></p></form></div>';
+echo '</select> <a href="http://apple.com/safari" title="'.__('Download', 'WPBU').'" target="_blank">'.__('Download', 'WPBU').'</a></p><p>Google Chrome: '.__('No need to define – handled automatically', 'WPBU').' <a href="http://chrome.google.com/" title="'.__('Download', 'WPBU').'" target="_blank">'.__('Download', 'WPBU').'</a></p><h3>'.__('Script Customizations', 'WPBU').'</h3><p>'.__('After how many hours the message should re-appear (0 = Show all the time)', 'WPBU').':<br /><input type="number" value="'.$wpbu_reminder.'" name="wpbu_reminder" min="0" max="99" step="1" required placeholder="(min: 0, max: 99)" /></p><p>'.__('Open link on notification bar in a new browser window/tab', 'WPBU').':<br /><select name="wpbu_newwindow"><option value="true"'.($wpbu_newwindow=='true' ? ' selected' : '').'>'.__('Yes', 'WPBU').'</option><option value="false"'.($wpbu_newwindow=='false' ? ' selected' : '').'>'.__('No', 'WPBU').'</option></select></p><p>'.__('Always show notification bar (for testing purposes)', 'WPBU').':<br /><select name="wpbu_testing"><option value="true"'.($wpbu_testing=='true' ? ' selected' : '').'>'.__('Yes', 'WPBU').'</option><option value="false"'.($wpbu_testing=='false' ? ' selected' : '').'>'.__('No', 'WPBU').'</option></select></p><h3>'.__('CSS Styles', 'WPBU').'</h3><p>'.sprintf(__('If you do not know about CSS and how to use, leave the following forms empty. For further details, visit the %show-to page%s.', 'WPBU'), '<a href="http://browser-update.org/customize.html" target="_blank">', '</a>').'</p><p>.buorg '.__('Style', 'WPBU').':<br /><textarea name="wpbu_css_buorg" cols="40" rows="10">'.$wpbu_css_buorg.'</textarea></p><p>.buorg div '.__('Style', 'WPBU').':<br /><textarea name="wpbu_css_buorgdiv" cols="40" rows="2">'.$wpbu_css_buorgdiv.'</textarea></p><p>.buorg a '.__('Style', 'WPBU').':<br /><textarea name="wpbu_css_buorga" cols="40" rows="2">'.$wpbu_css_buorga.'</textarea></p><p>#buorgclose '.__('Style', 'WPBU').':<br /><textarea name="wpbu_css_buorgclose" cols="40" rows="10">'.$wpbu_css_buorgclose.'</textarea></p><p class="submit"><input type="submit" name="wpbu_submit" value="'.__('Update Settings', 'WPBU').'" /></p></form></div>';
 }
 
 function wpbu_css() {
@@ -115,7 +108,7 @@ echo '</style>';
 }
 }
 
-function wp_browserupdate_admin() {
+function wpbu_admin() {
 add_options_page('WP BrowserUpdate', 'WP BrowserUpdate', 'manage_options', 'wp-browserupdate', 'wpbu_administration');
 }
 
@@ -123,10 +116,20 @@ function wpbu_settings_link($links) {
 return array_merge(array('settings' => '<a href="'.admin_url('options-general.php?page=wp-browserupdate').'">'.__('Settings').'</a>'), $links);
 }
 
+function wpbu_activation() {
+add_option('wp_browserupdate_browsers', '    ');
+add_option('wp_browserupdate_js', '0 false true');
+add_option('wp_browserupdate_css_buorg', '');
+add_option('wp_browserupdate_css_buorgdiv', '');
+add_option('wp_browserupdate_css_buorga', '');
+add_option('wp_browserupdate_css_buorgclose', '');
+}
+
+register_activation_hook(__FILE__, 'wpbu_activation');
 add_filter('plugin_action_links_'.basename(dirname(__FILE__)).'/'.basename(__FILE__), 'wpbu_settings_link');
-add_action('plugins_loaded', 'wpbu_language_init');
+add_action('plugins_loaded', 'wpbu_lang_init');
 add_action('wp_footer', 'wpbu');
 add_action('wp_head', 'wpbu_css');
-add_action('admin_menu', 'wp_browserupdate_admin');
+add_action('admin_menu', 'wpbu_admin');
 
 ?>

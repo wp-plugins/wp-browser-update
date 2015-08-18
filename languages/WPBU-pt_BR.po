@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP BrowserUpdate\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-07-20 21:03+0200\n"
-"PO-Revision-Date: 2015-07-20 21:03+0200\n"
+"POT-Creation-Date: 2015-07-24 21:21+0200\n"
+"PO-Revision-Date: 2015-07-24 21:21+0200\n"
 "Last-Translator: Marco Steinbrecher <wp-browserupdate@steini.me>\n"
 "Language-Team: Elvis Henrique Pereira <elvis.pereira@apiki.com>\n"
 "Language: pt_BR\n"
@@ -14,18 +14,18 @@ msgstr ""
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 1.8.2\n"
+"X-Generator: Poedit 1.8.3\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../WP-BrowserUpdate.php:54
+#: ../WP-BrowserUpdate.php:51
 msgid "Settings saved."
 msgstr "Configurações salvas."
 
-#: ../WP-BrowserUpdate.php:79
+#: ../WP-BrowserUpdate.php:76
 msgid "Out-dated Browser Versions"
 msgstr "Navegadores com versões desatualizadas"
 
-#: ../WP-BrowserUpdate.php:79
+#: ../WP-BrowserUpdate.php:76
 msgid ""
 "Please choose which browser version you consider to be out-dated (of course, "
 "this will include all versions below)… If you leave as is, WP BrowserUpdate "
@@ -35,44 +35,48 @@ msgstr ""
 "desatualizado (claro, isso vai incluir todas as versões abaixo)… Se deixar "
 "como está, o WP BrowserUpdate irá usar os valores padrões."
 
-#: ../WP-BrowserUpdate.php:83 ../WP-BrowserUpdate.php:87
-#: ../WP-BrowserUpdate.php:91 ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:80 ../WP-BrowserUpdate.php:84
+#: ../WP-BrowserUpdate.php:88 ../WP-BrowserUpdate.php:92
 msgid "Download"
-msgstr "Download."
+msgstr "Download"
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
+msgid "No need to define – handled automatically"
+msgstr "Não é necessário definir – tratado automaticamente"
+
+#: ../WP-BrowserUpdate.php:92
 msgid "Script Customizations"
-msgstr "Customização do script."
+msgstr "Customização do script"
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid ""
 "After how many hours the message should re-appear (0 = Show all the time)"
 msgstr ""
 "Após quantas horas a mensagem deve voltar a aparecer (0 = Mostrar o tempo "
 "todo)"
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "Open link on notification bar in a new browser window/tab"
 msgstr ""
-"Abrir link na barra de notificação em uma nova janela do navegador / guia"
+"Abrir link na barra de notificação em uma nova janela do navegador/guia"
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "Yes"
 msgstr "Sim"
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "No"
 msgstr "Não"
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "Always show notification bar (for testing purposes)"
 msgstr "Sempre mostrar barra de notificação (para fins de teste)"
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "CSS Styles"
 msgstr "CSS Styles"
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 #, php-format
 msgid ""
 "If you do not know about CSS and how to use, leave the following forms "
@@ -81,15 +85,15 @@ msgstr ""
 "Se você não conhece CSS e como usa-lo então deixe os campos abaixo em "
 "branco. Para mais detalhes, visite %show-to page%s."
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "Style"
 msgstr "Style"
 
-#: ../WP-BrowserUpdate.php:95
+#: ../WP-BrowserUpdate.php:92
 msgid "Update Settings"
 msgstr "Atualizar configurações"
 
-#: ../WP-BrowserUpdate.php:119
+#: ../WP-BrowserUpdate.php:116
 msgid "Settings"
 msgstr "Configurações"
 
