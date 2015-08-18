@@ -1,0 +1,107 @@
+# Loco Gettext template
+msgid ""
+msgstr ""
+"Project-Id-Version: WP BrowserUpdate\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-24 17:33+0200\n"
+"PO-Revision-Date: 2015-07-24 17:33+0200\n"
+"Last-Translator: Marco Steinbrecher <wp-browserupdate@steini.me>\n"
+"Language-Team: Marco Steinbrecher <wp-browserupdate@steini.me>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Revision-Date: Mon Jul 20 2015 14:02:11 GMT+0200\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../WP-BrowserUpdate.php:51
+msgid "Settings saved."
+msgstr "Einstellungen gespeichert."
+
+#: ../WP-BrowserUpdate.php:76
+msgid "Out-dated Browser Versions"
+msgstr "Veraltete Browser-Versionen"
+
+#: ../WP-BrowserUpdate.php:76
+msgid ""
+"Please choose which browser version you consider to be out-dated (of course, "
+"this will include all versions below)… If you leave as is, WP BrowserUpdate "
+"uses the default values."
+msgstr ""
+"Bitte wählen Sie die Browser-Version, welche Sie als veraltet erachten "
+"(natürlich beinhaltet dies auch alle Versionen darunter)…"
+
+#: ../WP-BrowserUpdate.php:80 ../WP-BrowserUpdate.php:84
+#: ../WP-BrowserUpdate.php:88 ../WP-BrowserUpdate.php:92
+msgid "Download"
+msgstr "Download"
+
+#: ../WP-BrowserUpdate.php:92
+msgid "No need to define – handled automatically"
+msgstr "entfällt – automatisch gehandhabt"
+
+#: ../WP-BrowserUpdate.php:92
+msgid "Script Customizations"
+msgstr "Skript-Anpassungen"
+
+#: ../WP-BrowserUpdate.php:92
+msgid ""
+"After how many hours the message should re-appear (0 = Show all the time)"
+msgstr ""
+"Nach wie vielen Stunden soll die Nachricht erneut erscheinen (0 = Jederzeit "
+"anzeigen)"
+
+#: ../WP-BrowserUpdate.php:92
+msgid "Open link on notification bar in a new browser window/tab"
+msgstr "Link in Benachrichtigungsleiste in neuem Browserfenster/-tab öffnen"
+
+#: ../WP-BrowserUpdate.php:92
+msgid "Yes"
+msgstr "Ja"
+
+#: ../WP-BrowserUpdate.php:92
+msgid "No"
+msgstr "Nein"
+
+#: ../WP-BrowserUpdate.php:92
+msgid "Always show notification bar (for testing purposes)"
+msgstr "Benachrichtigungsleiste immer anzeigen (für Tests)"
+
+#: ../WP-BrowserUpdate.php:92
+msgid "CSS Styles"
+msgstr "CSS-Stile"
+
+#: ../WP-BrowserUpdate.php:92
+#, php-format
+msgid ""
+"If you do not know about CSS and how to use, leave the following forms "
+"empty. For further details, visit the %show-to page%s."
+msgstr ""
+"Sollten Sie nicht wissen, was CSS ist und wie man es verwendet, belassen Sie "
+"die folgenden Formulare leer. Für weitere Informationen besuchen Sie die "
+"%sHilfeseite%s."
+
+#: ../WP-BrowserUpdate.php:92
+msgid "Style"
+msgstr "Stil"
+
+#: ../WP-BrowserUpdate.php:92
+msgid "Update Settings"
+msgstr "Einstellungen aktualisieren"
+
+#: ../WP-BrowserUpdate.php:116
+msgid "Settings"
+msgstr "Einstellungen"
+
+#~ msgid ""
+#~ "Please choose which browser version you consider to be out-dated (of "
+#~ "course, this will include all versions below)... If you leave as is, WP "
+#~ "BrowserUpdate uses the default values."
+#~ msgstr ""
+#~ "Bitte wählen Sie die Browser-Version, welche Sie als veraltet erachten "
+#~ "(natürlich beinhaltet dies auch alle Versionen darunter)…"
