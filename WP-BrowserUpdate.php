@@ -3,7 +3,7 @@
 Plugin Name: WP BrowserUpdate
 Plugin URI: http://blog.steini.me/wp-browserupdate
 Description: This plugin informs website visitors to update their out-dated browser in an unobtrusive way. Go to <a href="http://browser-update.org/" title="browser-update.org" target="_blank">browser-update.org</a> for more information…
-Version: 2.2.2
+Version: 2.3
 Author: Marco Steinbrecher
 Author URI: http://profiles.wordpress.org/macsteini
 Min WP Version: 2.0

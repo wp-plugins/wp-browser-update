@@ -5,7 +5,7 @@ Tags: Browser, Update, Installation, Notice, Warning, Out-dated
 Requires at least: 2.0
 Tested up to: 4.3
 Compatible up to: 4.3
-Stable tag: 2.2.2
+Stable tag: 2.3
 License: GPLv3 or later
 License URI: http://gnu.org/licenses/gpl
 
@@ -32,7 +32,7 @@ Search for “wp browserupdate” and install the displayed result from your plu
 Don’t forget to activate WP BrowserUpdate afterwards. ;-)
 
 == Changelog ==
-= 2.2.2 =
+= 2.3 =
 * Overhauled functions
 * Updated translation files
 * Removed out-dated Traditional Chinese translation
